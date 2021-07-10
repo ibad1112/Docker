@@ -15,4 +15,4 @@
 11. docker run -d (image) : Will run the container in a detached mode giving you the control of the CLI without forcing it to exit
 12. docker attach (id or name) : To attach the container back in CLI
 13. docker run -it (image) : Used to automatically log in to the container when it is run
-14. 
+14. docker run --name (setyournamehere) (image) : Used to give the container a user specified name
