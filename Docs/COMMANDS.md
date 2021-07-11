@@ -10,7 +10,7 @@
 9. docker pull (image name) : Pulls the image from docker hub to your host but does not run the container unlinke docker run.
 10. docker run -it (image) : Used to automatically log in to the container when it is run.
 11. docker run --name (setyournamehere) (image) : Used to give the container a user specified name.
-12. docker run (image):version : To run a container of an image with a specifc version.
+12. docker run (image): tag : To run a container of an image with a specifc version where the tag is used to specify the version number. If tag is not specified docker will consider default tag to be latest i.e. format will be (image: latest).
 #### Appending a Command
 13. docker run ubuntu sleep 5 : Any command can be appended by adding commands in front of it for example in this command the container starts and goes to asleep for 5 seconds. After it wakes up the container exits because there is no process running.
 #### Executing a command inside a docker container.
