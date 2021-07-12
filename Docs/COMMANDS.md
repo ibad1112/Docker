@@ -1,4 +1,4 @@
-#### Basic Commands
+#### Basic Commands :
 1. docker version : Used to check the version of Server Docker Engine as well as Client Docker Engine.
 2. docker run (image name) : Used to run a container from an image. Will run an instance of the image on the docker host, if it already exists. Tf the image does not exist on the host, it will go to docker hub and pull the image the first time. For subsequent iteration the same image will then be used (not pulled every time).
 3. docker ps : lists all the running containers and some basic info about them. Container Id and name is randomly assigned.
@@ -13,10 +13,11 @@
 12. docker run (image):tag : To run a container of an image with a specifc version where the tag is used to specify the version number. If tag is not specified docker will consider default tag to be latest i.e. format will be (image:latest).
 #### Appending a Command
 13. docker run ubuntu sleep 5 : Any command can be appended by adding commands in front of it for example in this command the container starts and goes to asleep for 5 seconds. After it wakes up the container exits because there is no process running.
-#### Executing a command inside a docker container.
+#### Executing a command inside a docker container :
 14. docker exec (container name) (command) - example docker exec sleeping_snippity cat /etc/os-release.
-#### Attaching or detaching a docker container.
+#### Attaching or detaching a docker container :
 15. docker run -d (image) : Will run the container in a detached mode giving you the control of the CLI without forcing it to exit.
 16. docker attach (id or name) : To attach the container back in CLI.
-17. 
+#### Basic Commands (Continued) :
+17. docker run -p dockerhostportnumber:containerportnumber (image) : The -p command is used for port forwarding your docker host port to your container port. The docker host is that machine or VM in which docker is installed.  
 
