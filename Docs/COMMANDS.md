@@ -23,3 +23,5 @@
 17. docker run -p dockerhostportnumber:containerportnumber (image) : The -p command is used for port forwarding your docker host port to your container port. The docker host is that machine or VM in which docker is installed.  
 18. docker logs (name or id) : Shows the logs of the container irrespective of whether they are running or stopped.
 19. docker exec -it (container name or id) (command mostly /bin/bash) : To interact with the container terminal. Mostly a container is made up of light weight images so most of the commands might not be available.
+20. docker network ls : Displays the docker networks
+21. docker network create (network name) : Create a network in docker
