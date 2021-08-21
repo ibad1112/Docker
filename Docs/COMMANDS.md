@@ -28,3 +28,4 @@
 22. docker run -i (image) : Here -i stands for interactive mode, used if you want to give an input to docker container. -t means terminal mode.
 23. docker run -v (/directory in docker host):(/directory in container) (image) : To persist data after container removal one can map a directory inside the container to a directory inside the docker host. This way when the docker container runs it will implicitly mount the external directory to a folder inside the docker container.
 24. docker inspect (container name or id) : A way to inspect the configuration of a container in JSON format.
+25. docker history (image) : Shows the building layers of the images.
