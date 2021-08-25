@@ -7,7 +7,7 @@ docker run (image name that you chose earlier).
 ## Test
 Open a browser and go to URL
 
-http://<IP>:5000                            => Welcome
-http://<IP>:5000/how are you            => I am good, how about you?
+http://IP:5000                            => Welcome
+http://IP:5000/how%20are%20you            => I am good, how about you?
 
 https://hub.docker.com/repository/docker/ibad1112/python-webapp is the link to the image in dockerhub.
