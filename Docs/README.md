@@ -27,7 +27,16 @@
 21. docker network create (network name) : Create a network in docker
 22. docker run -i (image) : Here -i stands for interactive mode, used if you want to give an input to docker container. -t means terminal mode.
 23. docker run -v (/directory in docker host):(/directory in container) (image) : To persist data after container removal one can map a directory inside the container to a directory inside the docker host. This way when the docker container runs it will implicitly mount the external directory to a folder inside the docker container.
-24. docker inspect (container name or id) : A way to inspect the configuration of a container in JSON format.
-25. docker history (image) : Shows the building layers of the images.
-26. docker build Dockerfile -t : (name of the docker image) 
-27. docker login: To login to your dockerhub account
+24. docker run -e environment_variable image_name : Used to run docker image with certain environment variables
+25. docker inspect (container name or id) : A way to inspect the configuration of a container in JSON format.
+26. docker history (image) : Shows the building layers of the images.
+27. docker build Dockerfile -t : (name of the docker image) 
+28. docker login: To login to your dockerhub account
+
+
+
+### Dockerfile Commands
+
+
+
+
