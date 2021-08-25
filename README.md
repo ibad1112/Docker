@@ -1,6 +1,8 @@
-Here I wanted to compile a list of commands for daily use by myself.
+This section consists of apps and the Dockerfile that is used to containerize them. In the Documents section there is a list of commands that are used while containerizing applications. 
 
 # **Table of Contents**
 
-### [Commands](Docs/COMMANDS.md)
+### [Commands](Docs/README.md)
+
+
 
