@@ -32,6 +32,8 @@
 26. docker history (image) : Shows the building layers of the images.
 27. docker build Dockerfile -t : (name of the docker image) 
 28. docker login: To login to your dockerhub account
+29. docker push account name/image name : To push your image into dockerhub once you logged in
+30. docker run --entrypoint (command) (image) (parameters) : To replace the command configured in dockerfile if using the entrypoint command inside.
 
 
 
