@@ -34,6 +34,7 @@
 28. docker login: To login to your dockerhub account
 29. docker push account name/image name : To push your image into dockerhub once you logged in
 30. docker run --entrypoint (command) (image) (parameters) : To replace the command configured in dockerfile if using the entrypoint command inside.
+31. docker run --link (name of the container you want to link):(name of the container you want to link) (image) : Establishes a link between the two containers. In background the container which is being instantiated has the name and the ip address of the second container added in its /etc/hosts file.  
 
 
 
