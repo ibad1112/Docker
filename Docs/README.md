@@ -40,6 +40,9 @@
 
 ### Dockerfile Commands
 
-
+FROM (image name) eg FROM ubuntu : Defines the base image from which the container starts.
+RUN command eg RUN apt-get update : Used to run the commands 
+COPY (referenced from current location where the dockerfile is based) (to location inside container where you want the files to be stored) eg FROM . /opt/py
+ENTRYPOINT
 
 
